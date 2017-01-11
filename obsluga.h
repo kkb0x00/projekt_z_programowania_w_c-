@@ -22,6 +22,7 @@ class ObslugaProgramu {
   ~ObslugaProgramu();
 
   HANDLE PobierzIdentyfikatorOkna();
+  void PokazMenu(); 
   int PobierzWysokosc();
   int UstawWysokosc(HANDLE);
   int UstawSzerokosc(HANDLE);
