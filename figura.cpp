@@ -94,3 +94,5 @@ bool Figura::JestNaPrzekatnej(int wiersz, int kolumna) {
 bool Figura::JestWZakresieUzytkownika(int wiersz) {
   return abs(wiersz - srodek_y) < wysokosc / 2 + 1;
 }
+
+//test
