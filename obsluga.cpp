@@ -60,8 +60,8 @@ void ObslugaProgramu::CzyscEkran(HANDLE okno) {
 }
 
 void ObslugaProgramu::PokazMenu() {
-	cout << "Do poruszania uzyj strzalek, + i - do zwieszkania/zmniejszania." << endl;
-	cout << "Do wyjscia z programu nacisnij litere 'q' (jak quit)." << endl;
+  cout << "Do poruszania uzyj strzalek, + i - do zwieszkania/zmniejszania." << endl;
+  cout << "Do wyjscia z programu nacisnij litere 'q' (jak quit)." << endl;
 }
 
 void ObslugaProgramu::UstawZnak() {
@@ -99,7 +99,6 @@ void ObslugaProgramu::UstawWysokoscPoczatkowa() {
 }
 
 void ObslugaProgramu::WypiszFigure() {
-
   wysokosc_terminala = this->UstawWysokosc(oknoProgramu);
   szerokosc_terminala = this->UstawSzerokosc(oknoProgramu);
 
@@ -158,7 +157,6 @@ void ObslugaProgramu::CzytajKlawisz() {
       kontynuuj = false;
     }
   }
-
 }
 
 void ObslugaProgramu::Odpal() {
