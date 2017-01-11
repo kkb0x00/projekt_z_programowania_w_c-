@@ -59,6 +59,11 @@ void ObslugaProgramu::CzyscEkran(HANDLE okno) {
   SetConsoleCursorPosition(okno, wspolrzedne);
 }
 
+void ObslugaProgramu::PokazMenu() {
+	cout << "Do poruszania uzyj strzalek, + i - do zwieszkania/zmniejszania." << endl;
+	cout << "Do wyjscia z programu nacisnij litere 'q' (jak quit)." << endl;
+}
+
 void ObslugaProgramu::UstawZnak() {
   char znak;
 
@@ -157,6 +162,7 @@ void ObslugaProgramu::CzytajKlawisz() {
 }
 
 void ObslugaProgramu::Odpal() {
+  PokazMenu();
   UstawZnak();
   UstawWysokoscPoczatkowa();
 
