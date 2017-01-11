@@ -37,3 +37,5 @@ class Figura {
 };
 
 #endif //PROJEKT_FIGURA_H
+
+//test
