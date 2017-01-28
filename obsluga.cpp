@@ -118,15 +118,17 @@ void ObslugaProgramu::WypiszFigure() {
       }
     }
   }
-
+  
+  LockWindowUpdate(GetConsoleWindow());
+  CzyscEkran(oknoProgramu);
+  
   for (int i = 0; i < wysokosc_terminala; ++i) {
     for (int j = 0; j < szerokosc_terminala; ++j) {
       cout << figura->PobierzZnakKomorki(i, j);
     }
-
   }
-
-  this->CzyscEkran(oknoProgramu);
+  
+  LockWindowUpdate(NULL);
 }
 
 void ObslugaProgramu::CzytajKlawisz() {
