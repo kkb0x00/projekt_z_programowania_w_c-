@@ -13,3 +13,11 @@ Napisz program rysowania znakiem ASCII poniższej figury. Program powinien umoz
 − ograniczenie przesuwania i rozmiarów figury do obszaru ekranu;<br>
 
 Uwaga: punkt zaczepienia znajduje się w lewym dolnym narożniku ekranu.
+
+
+                                  \    /
+                                   \  /
+                                    \/
+                                    /\
+                                   /  \
+                                  /    \
