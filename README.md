@@ -1,4 +1,4 @@
-# projekt_programowanie
+# projekt z programowania w c++
 
 
 Jest to prosty projekt na zakończenie zajęć ze wstępu do programowania.
