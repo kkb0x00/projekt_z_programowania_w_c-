@@ -1,9 +1,13 @@
 # projekt_programowanie
 
-głównym plikiem jest main.cpp
 
-projekt posiada dwie klasy: figura i obsługa
+Jest to prosty projekt na zakończenie zajęć ze wstępu do programowania.
 
-filmik pokazuje jak to działa: http://recordit.co/dnEKax4vyk
 
-minusem jest mruganie przy odświeżaniu ekranu
+Napisz program rysowania znakiem ASCII poniższej figury. Program powinien umożliwić:
+− wybór znaku kodu ASCII;
+− wczytanie początkowych rozmiarów figury;
+− zmianę wielkości figury klawiszami ′+′ i ′-′;
+− przesuwanie figury za pomocą kursorów ←, ↑, →, ↓;
+− ograniczenie przesuwania i rozmiarów figury do obszaru ekranu;
+Uwaga: punkt zaczepienia znajduje się w lewym dolnym narożniku ekranu.
