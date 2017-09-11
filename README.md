@@ -15,9 +15,9 @@ Napisz program rysowania znakiem ASCII poniższej figury. Program powinien umoz
 Uwaga: punkt zaczepienia znajduje się w lewym dolnym narożniku ekranu.
 
 
-                                                        \    /
-                                                         \  /
-                                                          \/
-                                                          /\
-                                                         /  \
-                                                        /    \
+                                                  \    /
+                                                   \  /
+                                                    \/
+                                                    /\
+                                                   /  \
+                                                  /    \
