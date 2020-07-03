@@ -1,5 +1,6 @@
-# projekt z programowania w c++
+# Project made for cpp classes
 
+Description in polish:
 
 Jest to prosty projekt na zakończenie zajęć ze wstępu do programowania.
 
